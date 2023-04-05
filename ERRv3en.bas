@@ -1,8 +1,10 @@
 !!
-            ERR Earthrotation v3.0
+                EARTHROTATION
+
        © 2020-23 by Dietmar Schrausser
 !!
-
+_name$="ERR"
+_ver$="v3.1"
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "ert.ini"
 IF fx
@@ -81,7 +83,7 @@ IF swc=3  THEN GR.OPEN cc/5,cc,cc,cc,0,1
 IF swc=4  THEN GR.OPEN cc,cc,cc,cc,0,1
 
 IF dlg=1 THEN GOSUB dialog
-
+dlg=1
 GR.SCREEN sx,sy
 mx=sx/2:my=sy/2
 
@@ -378,7 +380,7 @@ IF s03=1&s02=1
 ENDIF
 
 IF s03=1&s09=1
- dmx=ggg % Threshold angel ° /////////
+ dmx=ggg % Threshold angle ° /////////
  IF dx>dmx|dy>dmx|dz>dmx
   VIBRATE x[],-1
  ENDIF
@@ -526,10 +528,13 @@ ENDIF
 IF dlg=1 
  GOTO st
 ELSE
- dlg=1
  GR.CLOSE
  GOTO st0 % // color scheme /////////////////////
 ENDIF
+
+ONERROR:
+GOSUB fin
+END
 
 ONMENUKEY:
 GOSUB dialog
@@ -548,8 +553,8 @@ smq$=CHR$(9654)
 GOSUB menu
 
 std:
-ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o09$,"Ok"
-DIALOG.SELECT sel, sel$[],"ERR Earthrotation v3.0 - Layers:"
+ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o09$,"Ok", "exit"
+DIALOG.SELECT sel, sel$[],_name$+" Earthrotation "+_ver$+" - Layers:"
 IF sel=1
  s01=s01*-1
  IF s01=1 THEN GOSUB dialogk
@@ -581,6 +586,7 @@ IF sel=5
 ENDIF
 IF sel=9:s09=s09*-1:ENDIF
 IF sel=10:RETURN:   ENDIF
+IF sel=11:gosub fin:   ENDIF
 GOSUB menu
 GOTO std
 RETURN
@@ -654,7 +660,7 @@ gr01$="Difference Threshold="+FORMAT$("#.#",ggg)+"°"
 ARRAY.LOAD sel6$[],gr01$
 DIALOG.SELECT sel6, sel6$[],"Gravitation Options:"
 IF sel6=1
- INPUT "Difference °Angel=… ",ggg,2
+ INPUT "Difference °Angle=… ",ggg,2
 ENDIF
 RETURN
 
@@ -680,7 +686,7 @@ la01$="Difference Threshold=" +FORMAT$("###.#",gwl)+"°"
 ARRAY.LOAD sel8$[],la01$
 DIALOG.SELECT sel8, sel8$[],"Linear Acceleration Options:"
 IF sel8=1
- INPUT "Difference °Angel=… ",gwl,1
+ INPUT "Difference °Angle=… ",gwl,1
 ENDIF
 RETURN
 
@@ -718,7 +724,9 @@ TEXT.WRITELN fer, ggw
 TEXT.WRITELN fer, gwl
 TEXT.WRITELN fer, mfi
 TEXT.CLOSE fer
-
-PRINT "ERR Earthrotation v3.0"         
+console.title _name$
+PRINT _name$+" Earthrotation "+_ver$         
 PRINT "Copyright © 2023 by Dietmar Gerald Schrausser"
+PRINT "https://github.com/Schrausser/ERR"
+END
 RETURN
