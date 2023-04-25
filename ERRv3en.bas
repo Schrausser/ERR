@@ -4,7 +4,7 @@
        © 2020-23 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.1"
+_ver$="v3.2"
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "ert.ini"
 IF fx
@@ -86,6 +86,7 @@ IF dlg=1 THEN GOSUB dialog
 dlg=1
 GR.SCREEN sx,sy
 mx=sx/2:my=sy/2
+pat$="../../EIGENEDATEIEN/ERR/scrs/"
 
 ! /////////////////////
 sze=1.9     % // factor
@@ -93,6 +94,7 @@ lg= sx/sze  % // size
 ! /////////////////////
 
 GR.COLOR c,0,0,0,0
+GR.SET.STROKE 2
 
 st: % Start //////////////////////////////////
 
@@ -170,7 +172,7 @@ ENDIF
 SENSORS.READ 1,  clx,cly,clz  % Accelerometer
 SENSORS.READ 2,  mfx,mfy,mfz  % Magnetic Field
 SENSORS.READ 3,  cp, cpi,crl  % Orientation
-SENSORS.READ 8,  bwg,dmy,dmy  % Movement
+SENSORS.READ 8,  dmy,dmy,bwg  % Movement
 SENSORS.READ 9,  cpx,cpy,cpz  % Gravity
 SENSORS.READ 10, acx,acy,acz  % Linear Accel
 
@@ -464,10 +466,10 @@ IF s04=1 % Local Magnetic Field ////////////////
 
   GR.Text. draw tx ,mx + (lgz*mfx/snm) ,my-(lgz*mfy/snm), "+"
   GR.COLOR cc-200,cc,cc,50,1
-  GR.LINE ln ,mx, my, mx+(lgz*mfx/snm) ,my-(lgy*mfz/snm)
+  ! GR.LINE ln ,mx, my, mx+(lgz*mfx/snm) ,my-(lgy*mfz/snm)
   ! GR.LINE ln ,mx, my, mx-(lgz*mfx/snm) ,my+(lgy*mfz/snm)
   ! GR.LINE ln ,mx, my, mx-(lgx*mfz/snm) ,my+(lgz*mfy/snm)
-  GR.LINE ln ,mx, my, mx+(lgx*mfz/snm) ,my-(lgz*mfy/snm)
+  ! GR.LINE ln ,mx, my, mx+(lgx*mfz/snm) ,my-(lgz*mfy/snm)
   IF swc=0 THEN GR.COLOR cc-140,cc,cc,50,1
  ELSE
   GR.CIRCLE cl ,mx+(lgz*mfx/snm),my -(lgz*mfy/snm) ,sx/200
@@ -489,18 +491,19 @@ IF s04=1 % Local Magnetic Field ////////////////
  ENDIF
 
  ! Magnetic Field indicator, circle ///////////
- GR.CIRCLE cl,mx,my, sx/mfi*ABS(mfz)/100 % // 20
- IF mfz>0 
-  GR.COLOR 150,0,0,0,1
-  GR.CIRCLE cl,mx,my, sx/(mfi+1)*ABS(mfz)/100 % // 19
+ IF mfi<>0
+  GR.CIRCLE cl,mx,my, sx/mfi*ABS(mfz)/100 % // 20
+  IF mfz>0 
+   GR.COLOR 150,0,0,0,1
+   GR.CIRCLE cl,mx,my, sx/(mfi+1)*ABS(mfz)/100 % // 19
+  ENDIF
+  IF swc=0 THEN GR.COLOR cc-140,cc,cc,50,1
+  GR.CIRCLE cl,mx,0, sx/mfi*ABS(mfy)/100 % // 20
+  IF mfy<0 
+   GR.COLOR 150,0,0,0,1
+   GR.CIRCLE cl,mx,0, sx/(mfi+1)*ABS(mfy)/100 % // 19
+  ENDIF
  ENDIF
- IF swc=0 THEN GR.COLOR cc-140,cc,cc,50,1
- GR.CIRCLE cl,mx,0, sx/mfi*ABS(mfy)/100 % // 20
- IF mfy<0 
-  GR.COLOR 150,0,0,0,1
-  GR.CIRCLE cl,mx,0, sx/(mfi+1)*ABS(mfy)/100 % // 19
- ENDIF
-
  IF s09=1
   mfmx=ggw % Signal threshold density //////////////
   IF mfy > mfmx THEN TONE 10000, 56
@@ -519,6 +522,17 @@ IF swc=3 THEN GR.COLOR cc/2,cc,cc,cc,1
 IF swc=4 THEN GR.COLOR cc,0,0,0,1
 
 GR.RENDER
+IF s10=1 %SCRS
+ IF bwg=0 THEN sw0=1
+ IF bwg=1&sw0=1
+  scrs$=pat$+"ERR"+Y$+M$+D$+h$+min$+sec$
+  GR.SCREEN.TO_BITMAP scrs
+  GR.BITMAP.SAVE scrs,scrs$
+  TONE 11500,55
+  sw0=0
+ ENDIF
+ENDIF
+
 
 GR.TOUCH tc,tx,ty
 IF tc 
@@ -553,7 +567,7 @@ smq$=CHR$(9654)
 GOSUB menu
 
 std:
-ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o09$,"Ok", "exit"
+ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o09$,o10$,"Ok", "exit"
 DIALOG.SELECT sel, sel$[],_name$+" Earthrotation "+_ver$+" - Layers:"
 IF sel=1
  s01=s01*-1
@@ -585,8 +599,9 @@ IF sel=5
  IF s08=1 THEN GOSUB dialogla
 ENDIF
 IF sel=9:s09=s09*-1:ENDIF
-IF sel=10:RETURN:   ENDIF
-IF sel=11:gosub fin:   ENDIF
+IF sel=10:s10=s10*-1:ENDIF
+IF sel=11:RETURN:   ENDIF
+IF sel=12:GOSUB fin:   ENDIF
 GOSUB menu
 GOTO std
 RETURN
@@ -609,6 +624,8 @@ IF s08=1:o08$=smb$+"  Linear Acceleration "+lap$:ENDIF
 IF s08=-1: o08$="     Linear Acceleration off":  ENDIF
 IF s09=1:o09$=smb$+"  Signal":ENDIF
 IF s09=-1: o09$="     Signal off":  ENDIF
+IF s10=1:o10$=smb$+"  SCRS":ENDIF
+IF s10=-1: o10$="     SCRS aus":  ENDIF
 RETURN
 
 dialogk:
@@ -724,7 +741,7 @@ TEXT.WRITELN fer, ggw
 TEXT.WRITELN fer, gwl
 TEXT.WRITELN fer, mfi
 TEXT.CLOSE fer
-console.title _name$
+CONSOLE.TITLE _name$
 PRINT _name$+" Earthrotation "+_ver$         
 PRINT "Copyright © 2023 by Dietmar Gerald Schrausser"
 PRINT "https://github.com/Schrausser/ERR"
