@@ -530,11 +530,9 @@ ELSE
  GOTO st0 % // color scheme /////////////////////
 ENDIF
 !
-!!
 ONERROR:
 GOSUB fin
 END
-!!
 ONMENUKEY:
 GOSUB dialog
 MENUKEY.RESUME
