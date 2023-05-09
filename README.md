@@ -1,5 +1,5 @@
 # ERR
-Android application for displaying Earth's and local Magnetic Field, Gravity, Acceleration, GPS and more.
+Android application `ERR` for displaying Earth's and local Magnetic Field, Gravity, Acceleration, GPS and more.
 
 
 ![figure.\label{pic0}](pic0.jpg)
