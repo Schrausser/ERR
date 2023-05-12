@@ -12,4 +12,3 @@ Android application `ERR` for displaying Earth's and local Magnetic Field, Gravi
 
 
 ![figure.\label{pic1}](pic1.jpg)
-
