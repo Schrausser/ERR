@@ -4,7 +4,7 @@
        © 2020-23 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.5"
+_ver$="v3.5.2"
 INCLUDE strg.inc
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "err.ini"
@@ -40,6 +40,7 @@ IF fx
  TEXT.READLN fer, ini$:ggw=VAL(ini$)
  TEXT.READLN fer, ini$:gwl=VAL(ini$)
  TEXT.READLN fer, ini$:mfi=VAL(ini$)
+ TEXT.READLN fer, ini$:skl=VAL(ini$)
  TEXT.CLOSE fer
 ELSE
  ! %layer default ///////////////////////////
@@ -58,6 +59,7 @@ ELSE
  ggw=50
  gwl=0.8
  mfi=50
+ skl=3
 ENDIF
 cc=255
 SENSORS.OPEN 1
@@ -95,11 +97,11 @@ lg= sx/sze  % // size
 ! /////////////////////
 !
 GR.COLOR c,0,0,0,0
-GR.SET.STROKE 2
 !
 st: % Start //////////////////////////////////
 !
 GR.CLS
+GR.SET.STROKE skl
 !
 TIME Y$, M$, D$, h$, min$, sec$
 yr=VAL(Y$)
@@ -370,14 +372,14 @@ IF s03=1&s02=1
  IF dy>dmxg THEN dmxg=dy
  IF dz>dmxg THEN dmxg=dz
 ENDIF
-!
+!!
 IF s03=1&s09=1
  dmx=ggg % Threshold angle ° /////////
  IF dx>dmx|dy>dmx|dz>dmx
   VIBRATE x[],-1
  ENDIF
 ENDIF
-!
+!!
 cp$=  FORMAT$("###.#",cp)+"°"
 cpi$= FORMAT$("###.#",-cpi)+"°"+ CHR$(8597)
 crl$= FORMAT$("###.#", crl)+"°"+ CHR$(8596)
@@ -549,11 +551,15 @@ smq$=CHR$(9654)
 GOSUB menu
 !
 std:
-ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o09$,o10$,"Ok", "exit"
+ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o11$,o09$,o10$,"Ok", "exit"
 DIALOG.SELECT sel, sel$[],_name$+" Earthrotation "+_ver$+" - Layers:"
 IF sel=1
  s01=s01*-1
  IF s01=1 THEN GOSUB dialogk
+ENDIF
+IF sel=2
+ s04=s04*-1
+ IF s04=1 THEN GOSUB dialogm
 ENDIF
 IF sel=3
  s02=s02*-1
@@ -563,9 +569,9 @@ IF sel=4
  s03=s03*-1:dmxg=0
  IF s03=1 THEN GOSUB dialoggr
 ENDIF
-IF sel=2
- s04=s04*-1
- IF s04=1 THEN GOSUB dialogm
+IF sel=5
+ s08=s08*-1:acm1=0
+ IF s08=1 THEN GOSUB dialogla
 ENDIF
 IF sel=6
  s05=s05*-1
@@ -576,14 +582,13 @@ IF sel=8
  GOSUB dialogf
  inf=0:dlg=0
 ENDIF
-IF sel=5
- s08=s08*-1:acm1=0
- IF s08=1 THEN GOSUB dialogla
+IF sel=9
+ GOSUB lbrte
 ENDIF
-IF sel=9:s09=s09*-1:ENDIF
-IF sel=10:s10=s10*-1:ENDIF
-IF sel=11:RETURN:   ENDIF
-IF sel=12:GOSUB fin:   ENDIF
+IF sel=10:s09=s09*-1:ENDIF
+IF sel=11:s10=s10*-1:ENDIF
+IF sel=12:RETURN:   ENDIF
+IF sel=13:GOSUB fin:   ENDIF
 GOSUB menu
 GOTO std
 RETURN
@@ -602,6 +607,7 @@ IF s05=-1: o05$="     GPS off":  ENDIF
 IF s06=1:o06$=smb$+"  Text":ENDIF
 IF s06=-1: o06$="     Text off":  ENDIF
 o07$=smq$+"  Color scheme:  "+fp$
+o11$=smq$+"  Line width:  "+int$(skl)
 IF s08=1:o08$=smb$+"  Linear Acceleration "+lap$:ENDIF
 IF s08=-1: o08$="     Linear Acceleration off":  ENDIF
 IF s09=1:o09$=smb$+"  Signal":ENDIF
@@ -689,6 +695,11 @@ IF sel8=1
 ENDIF
 RETURN
 !
+lbrte:
+ARRAY.LOAD selbr$[],"1 [very narrow]","2 [narrow]","3 [normal]","4 [bold]","5 [very bold]"
+DIALOG.SELECT skl, selbr$[],"Line width:"
+RETURN 
+!
 fin:
 ! %write defaults
 TEXT.OPEN w, fer, "err.ini"
@@ -722,6 +733,7 @@ TEXT.WRITELN fer, ggg
 TEXT.WRITELN fer, ggw
 TEXT.WRITELN fer, gwl
 TEXT.WRITELN fer, mfi
+TEXT.WRITELN fer, skl
 TEXT.CLOSE fer
 CONSOLE.TITLE _name$
 PRINT _name$+" Earthrotation "+_ver$         
