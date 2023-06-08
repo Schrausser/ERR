@@ -4,8 +4,8 @@
        © 2020-23 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.5.2"
-INCLUDE strg.inc
+_ver$="v3.5.5"
+INCLUDE strg_.inc
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "err.ini"
 IF fx
@@ -551,7 +551,7 @@ smq$=CHR$(9654)
 GOSUB menu
 !
 std:
-ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o11$,o09$,o10$,"Ok", "exit"
+ARRAY.LOAD sel$[],o01$,o04$,o02$,o03$,o08$,o05$,o06$,o07$,o11$,o09$,o10$,"Ok", _ex$+"  Exit"
 DIALOG.SELECT sel, sel$[],_name$+" Earthrotation "+_ver$+" - Layers:"
 IF sel=1
  s01=s01*-1
@@ -665,7 +665,7 @@ gr01$="Difference Threshold="+FORMAT$("#.#",ggg)+"°"
 ARRAY.LOAD sel6$[],gr01$
 DIALOG.SELECT sel6, sel6$[],"Gravitation Options:"
 IF sel6=1
- INPUT "Difference °Angle=… ",ggg,2
+ INPUT "Difference Angle=…°",ggg,2
 ENDIF
 RETURN
 !
@@ -691,7 +691,7 @@ la01$="Difference Threshold=" +FORMAT$("###.#",gwl)+"°"
 ARRAY.LOAD sel8$[],la01$
 DIALOG.SELECT sel8, sel8$[],"Linear Acceleration Options:"
 IF sel8=1
- INPUT "Difference °Angle=… ",gwl,1
+ INPUT "Difference Angle=…°",gwl,1
 ENDIF
 RETURN
 !
