@@ -24,9 +24,9 @@ Figure 2.
 
 ![figure.\label{pic2}](pic2.jpg)
 
-The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation. SI units is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
+The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Officer, 1974; King-Hele et al., 1980). SI units is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*.
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020)
 
 Figure 3.
 
@@ -40,6 +40,16 @@ Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New J
 Dunnington, G. W. (1934). The Historical Significance of Carl Friedrich Gauss in Mathematics and Some Aspects of His Work. *Mathematics News Letter 8* (8): 175–79. http://www.jstor.org/stable/3027789.
 
 Gauss, C. F., Weber, W. E., & Goldschmidt, C. W. B. (1840). *Atlas Des Erdmagnetismus Nach Den Elementen Der Theorie Entworfen.* Leipzig: Weidmann’sche Buchhandlung. https://archive.org/details/bub_gb_uTkAAAAAQAAJ/.
+
+Götze, H.-J. (2020). International Gravity Formula. In *Encyclopedia of Solid Earth Geophysics*, edited by Gupta, H. K., 1–2. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-10475-7_102-1.
+
+Hinze, W. J., von Frese, R. R. B., & Saad, A. H. (2013). Gravity Anomaly Interpretation. In *Gravity and Magnetic Exploration: Principles, Practices, and Applications*, 175–212. Cambridge: University Press. https://doi.org/10.1017/CBO9780511843129.008.
+
+Kaula, W. M. (1970). Earth’s Gravity Field: Relation to Global Tectonics. *Science 169* (3949): 982–85. http://www.jstor.org/stable/1729492.
+
+King-Hele, D. G., & Leppard, N. A. G. (1980). The Gravity Field of the Earth [and Discussion]. *Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences 294* (1410): 317–28. http://www.jstor.org/stable/36527.
+
+Officer, C. B. (1974). Gravity. In *Introduction to Theoretical Geophysics*, 260–302. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-65731-3_8.
 
 Šarboh, S. (2010). The Patents of Nikola Tesla. *World Patent Information 32* (4): 335–39. https://doi.org/10.1016/j.wpi.2009.11.001.
 
