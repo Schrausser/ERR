@@ -20,6 +20,9 @@ $B_E$ normaly ranges from about $B_E>=0.25G$ to $B_E<=0.65G$.
 
 ![figure.\label{pic2}](pic2.jpg)
 
+The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation. SI units is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g$ is approximately
+$$g=9.8 \frac{m}{s^2}.$$
+
 ![figure.\label{pic1}](pic1.jpg)
 
 ### References
