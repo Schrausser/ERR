@@ -1,5 +1,5 @@
 # ERR
-Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field*, Gravity, Acceleration, GPS and more, c.f. Assis et al., (2004).  
+Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field*, *Gravity*, Acceleration, GPS and more, c.f. Assis et al., (2004).  
 
 Figure 1.
 
@@ -26,7 +26,7 @@ Figure 2.
 
 The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation. SI units is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or gravity anomalies as the difference between the observed acceleration and the predicted model value $g_n$ of the International Reference Ellipsoid.
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*.
 
 Figure 3.
 
