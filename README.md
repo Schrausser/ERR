@@ -1,5 +1,5 @@
 # ERR
-Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field* (Assis et al., 2004), *Gravity* (King-Hele et al., 1980), *Acceleration*, *GPS* and more. As an additional tool to the SSR Solar System simulator (Schrausser, 2023) for orientation with a particular focus on position and time determination on earth.
+Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field* (Assis et al., 2004), *Gravity* (King-Hele et al., 1980), *Acceleration*, *GPS* and more. As an additional tool to the `SSR` Solar System Simulator (Schrausser, 2023) for orientation with a particular focus on position and time determination on Earth.
 
 Figure 1.
 
