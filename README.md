@@ -1,5 +1,7 @@
 # ERR
-Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field*, Gravity, Acceleration, GPS and more, c.f. Assis et al., (2004).
+Earthrotation `ERR`. Android application for displaying Earth's and local *Magnetic Field*, Gravity, Acceleration, GPS and more, c.f. Assis et al., (2004).  
+
+Figure 1.
 
 ![figure.\label{pic0}](pic0.jpg)
 
@@ -16,12 +18,16 @@ The geomagnetic field or *flux density* $B_E$ is calculated in microteslas $μT$
 
 $$G= μT⋅100.$$
 
-$B_E$ normaly ranges from about $B_E>=0.25G$ to $B_E<=0.65G$.
+$B_E$ normaly ranges from about $B_E>=0.25G$ to $B_E<=0.65G$.  
+
+Figure 2.
 
 ![figure.\label{pic2}](pic2.jpg)
 
 The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation. SI units is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
-$$g_n=9.8 \frac{m}{s^2}.$$
+$$g_n=9.8 \frac{m}{s^2}.$$  
+
+Figure 3.
 
 ![figure.\label{pic1}](pic1.jpg)
 
