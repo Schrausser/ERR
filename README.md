@@ -53,6 +53,8 @@ Officer, C. B. (1974). Gravity. In *Introduction to Theoretical Geophysics*, 
 
 Šarboh, S. (2010). The Patents of Nikola Tesla. *World Patent Information 32* (4): 335–39. https://doi.org/10.1016/j.wpi.2009.11.001.
 
+Schrausser, D. G. (2023). SSR: Solar System Simulator. *Zenodo Publications 2023* (12/10). https://doi.org/10.5281/zenodo.10338851.
+
 Swezey, K. M. (1958). Nikola Tesla. *Science 127* (3307): 1147–59. http://www.jstor.org/stable/1756073.
 
 Vogt, J. (1949). Wilhelm Weber. *Gnomon 21* (3/4): 176–79. http://www.jstor.org/stable/27677119.
