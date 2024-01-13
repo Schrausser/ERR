@@ -18,7 +18,7 @@ The geomagnetic field or *flux density* $B_E$ is calculated in microteslas $μT$
 
 $$G= μT⋅100.$$
 
-$B_E$ normaly ranges from about $B_E>=0.25G$ to $B_E<=0.65G$.  
+$B_E$ normaly ranges from about $B_E\ge0.25G$ to $B_E\le0.65G$.  
 
 Figure 2.
 
