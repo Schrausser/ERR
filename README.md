@@ -10,7 +10,7 @@ SI unit of *magnetic flux* is weber $Wb$ (c.f. Weber, 1867; Vogt, 1949), with
 $$Wb = V⋅s,$$
 
 where $V$ is volt and $s$ is second.
-The *magnetic flux* of $n⋅Wb$  through a surface of $n$ square meter $m^2$ is $n$ tesla $T$ (see e.g. Swezey, 1858; Šarboh, 2010; Carlson, 2013), or
+The *magnetic flux* of $n⋅Wb$  through a surface of $n$ square meter $m^2$ is $n$ tesla $T$ (see e.g. Swezey, 1958; Šarboh, 2010; Carlson, 2013), or
 
 $$T=\frac{Wb}{m^2}.$$
 
