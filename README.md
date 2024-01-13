@@ -51,9 +51,7 @@ Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New J
 
 Chang, K. T. (2016). *Introduction to Geographic Information Systems*. New York: McGraw-Hill Education. https://books.google.com/books?id=DokZogEACAAJ.
 
-Daniel, L. E., and Daniel, L. E. (2012). Chapter 42 - Global Positioning Systems. In *Digital Forensics for Legal Professionals*, 309–19. Boston: Syngress. https://doi.org/https://doi.org/10.1016/B978-1-59749-643-8.00042-0.
-
-Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New Jersey: Princeton University Press. http://www.jstor.org/stable/j.ctt24hpng.
+Daniel, L. E., and Daniel, L. E. (2012). Chapter 42 - Global Positioning Systems. In *Digital Forensics for Legal Professionals*, 309–19. Boston: Syngress. https://doi.org/10.1016/B978-1-59749-643-8.00042-0.
 
 Dunnington, G. W. (1934). The Historical Significance of Carl Friedrich Gauss in Mathematics and Some Aspects of His Work. *Mathematics News Letter 8* (8): 175–79. http://www.jstor.org/stable/3027789.
 
