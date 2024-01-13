@@ -31,11 +31,11 @@ $$g_n=9.8 \frac{m}{s^2}.$$
 
 The orientation to the gravitational field $g$, as well as fluctuations $z$ and deviations from local accelerations $diff$, are also specified in angular degrees $\alpha°$.
 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020)
-
 Figure 3.
 
 ![figure.\label{pic1}](pic1.jpg)
+
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020)
 
 ### References
 Assis, A. K. T., Reich, K., & Wiederkehr, K. (2004). On the Electromagnetic and Electrostatic Units of Current and the Meaning of the Absolute System of Units — for the 200th Anniversary of Wilhelm Weber’s Birth. *Sudhoffs Archiv 88* (1): 10–31. http://www.jstor.org/stable/20777923.
