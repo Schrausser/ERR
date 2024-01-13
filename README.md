@@ -37,7 +37,7 @@ Figure 3.
 
 Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020).
 
-The current global position $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of latitude $\phi$ and longitude $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively.
+The current global position $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of latitude $\phi$ and longitude $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively. See e.g. Anderle et al. (1980), Daniel & Daniel (2012), Acharya (2014) or Chang (2016).
 
 ### References
 
