@@ -40,7 +40,18 @@ Given Earth's rotation and spherical asymmetry, but also tidal forces, variation
 The current global position $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of latitude $\phi$ and longitude $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively.
 
 ### References
+
+Acharya, R. (2014). *Understanding Satellite Navigation*. 1st ed. Cambridge, Massachusetts: Academic Press. https://doi.org/10.1016/C2013-0-06964-2.
+
+Anderle, R. J., Allan, A. L., Leppard, N. A. G., Krakiwsky, E. J., & Merson, R. H. (1980). The Global Positioning System and Discussion. *Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences 294* (1410): 395–406. http://www.jstor.org/stable/36536.
+
 Assis, A. K. T., Reich, K., & Wiederkehr, K. (2004). On the Electromagnetic and Electrostatic Units of Current and the Meaning of the Absolute System of Units — for the 200th Anniversary of Wilhelm Weber’s Birth. *Sudhoffs Archiv 88* (1): 10–31. http://www.jstor.org/stable/20777923.
+
+Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New Jersey: Princeton University Press. http://www.jstor.org/stable/j.ctt24hpng.
+
+Chang, K. T. (2016). *Introduction to Geographic Information Systems*. New York: McGraw-Hill Education. https://books.google.com/books?id=DokZogEACAAJ.
+
+Daniel, L. E., and Daniel, L. E. (2012). Chapter 42 - Global Positioning Systems. In *Digital Forensics for Legal Professionals*, 309–19. Boston: Syngress. https://doi.org/https://doi.org/10.1016/B978-1-59749-643-8.00042-0.
 
 Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New Jersey: Princeton University Press. http://www.jstor.org/stable/j.ctt24hpng.
 
