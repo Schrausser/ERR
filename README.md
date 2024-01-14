@@ -26,10 +26,10 @@ Figure 2.
 
 The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha°$ on the $x$, $y$ and $z$ axes; it is defined as a *dipole* inclined at approximately $\alpha=9.6°$ relative to the axis of rotation.
 
-The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
+The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Caputo, 1967; Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020).
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020).
 
 The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ and deviations from local accelerations $d$, are also specified in angular degrees $\alpha°$.
 
@@ -46,6 +46,10 @@ Acharya, R. (2014). *Understanding Satellite Navigation*. 1st ed. Cambridge, Ma
 Anderle, R. J., Allan, A. L., Leppard, N. A. G., Krakiwsky, E. J., & Merson, R. H. (1980). The Global Positioning System and Discussion. *Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences 294* (1410): 395–406. http://www.jstor.org/stable/36536.
 
 Assis, A. K. T., Reich, K., & Wiederkehr, K. (2004). On the Electromagnetic and Electrostatic Units of Current and the Meaning of the Absolute System of Units — for the 200th Anniversary of Wilhelm Weber’s Birth. *Sudhoffs Archiv 88* (1): 10–31. http://www.jstor.org/stable/20777923.
+
+Bowin, C. (1991). The Earth’s Gravity Field and Plate Tectonics. *Tectonophysics 187* (1): 69–89. https://doi.org/10.1016/0040-1951(91)90414-N.
+
+Caputo, M. (1967). *The Gravity Field of the Earth from Classical and Modern Methods. Edited by van Mieghem, J*. 1st ed. Cambridge, Massachusetts: Academic Press. https://shop.elsevier.com/books/the-gravity-field-of-the-earth/van-mieghem/978-1-4831-9735-7#full-description.
 
 Carlson, W. B. (2013). *Tesla: Inventor of the Electrical Age*. Princeton, New Jersey: Princeton University Press. http://www.jstor.org/stable/j.ctt24hpng.
 
