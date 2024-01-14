@@ -14,7 +14,7 @@ The *magnetic flux* of $n⋅Wb$  through a surface of $n$ square meter $m^2$ is 
 
 $$T=\frac{Wb}{m^2}.$$
 
-The geomagnetic field or *flux density* $B_E$ is calculated in microteslas $μT$ or gauss $G$, respectively (c.f. Gauss et al., 1840; Dunnington, 1934), where 
+The *geomagnetic field* or *flux density* $B_E$ is calculated in microteslas $μT$ or gauss $G$, respectively (c.f. Gauss et al., 1840; Dunnington, 1934), where 
 
 $$G= μT⋅100.$$
 
@@ -24,20 +24,20 @@ Figure 2.
 
 ![figure.\label{pic2}](pic2.jpg)
 
-The orientation to the geomagnetic field is given in angular degrees $\alpha°$ on the $x$, $y$ and $z$ axes; it is defined as a *dipole* inclined at approximately $\alpha=9.6°$ relative to the axis of rotation.
+The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha°$ on the $x$, $y$ and $z$ axes; it is defined as a *dipole* inclined at approximately $\alpha=9.6°$ relative to the axis of rotation.
 
-The Earth's gravity $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
+The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
 
-The orientation to the gravitational field $g$, as well as fluctuations $z$ and deviations from local accelerations $diff$, are also specified in angular degrees $\alpha°$.
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020).
+
+The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ and deviations from local accelerations $diff$, are also specified in angular degrees $\alpha°$.
 
 Figure 3.
 
 ![figure.\label{pic1}](pic1.jpg)
 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Hinze et al. (2013), Götze (2020).
-
-The current global position $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of latitude $\phi$ and longitude $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively. See e.g. Anderle et al. (1980), Daniel & Daniel (2012), Acharya (2014) or Chang (2016).
+The current *global position* $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of *latitude* $\phi$ and *longitude* $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively. See e.g. Anderle et al. (1980), Daniel & Daniel (2012), Acharya (2014) or Chang (2016).
 
 ### References
 
