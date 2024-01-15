@@ -29,7 +29,7 @@ The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha
 The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Caputo, 1967; Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020).
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Lambert (1926), Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020).
 
 The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ and deviations from local accelerations $d$, are also specified in angular degrees $\alpha°$.
 
@@ -68,6 +68,8 @@ Hinze, W. J., von Frese, R. R. B., & Saad, A. H. (2013). Gravity Anomaly Interp
 Kaula, W. M. (1970). Earth’s Gravity Field: Relation to Global Tectonics. *Science 169* (3949): 982–85. http://www.jstor.org/stable/1729492.
 
 King-Hele, D. G., & Leppard, N. A. G. (1980). The Gravity Field of the Earth [and Discussion]. *Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences 294* (1410): 317–28. http://www.jstor.org/stable/36527.
+
+Lambert, W. D. (1926). The Figure of the Earth and the New International Ellipsoid of Reference. *Science 63* (1627): 242–48. http://www.jstor.org/stable/1650705.
 
 Officer, C. B. (1974). Gravity. In *Introduction to Theoretical Geophysics*, 260–302. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-65731-3_8.
 
