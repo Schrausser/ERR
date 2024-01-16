@@ -29,7 +29,7 @@ The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha
 The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and centrifugal force from rotation (see e.g. Caputo, 1967; Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
 
-Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Lambert (1926), Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020).
+Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Lambert (1926), Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020) or Hu et al. (2023).
 
 The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ and deviations from local accelerations $d$, are also specified in angular degrees $\alpha°$.
 
@@ -64,6 +64,8 @@ Gauss, C. F., Weber, W. E., & Goldschmidt, C. W. B. (1840). *Atlas Des Erdmagnet
 Götze, H.-J. (2020). International Gravity Formula. In *Encyclopedia of Solid Earth Geophysics*, edited by Gupta, H. K., 1–2. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-10475-7_102-1.
 
 Hinze, W. J., von Frese, R. R. B., & Saad, A. H. (2013). Gravity Anomaly Interpretation. In *Gravity and Magnetic Exploration: Principles, Practices, and Applications*, 175–212. Cambridge: University Press. https://doi.org/10.1017/CBO9780511843129.008.
+
+Hu, X., Shum, C. K., & Bevis, M. (2023). A Triaxial Reference Ellipsoid for the Earth. *Journal of Geodesy 97* (4): 29. https://doi.org/10.1007/s00190-023-01717-1.
 
 Kaula, W. M. (1970). Earth’s Gravity Field: Relation to Global Tectonics. *Science 169* (3949): 982–85. http://www.jstor.org/stable/1729492.
 
