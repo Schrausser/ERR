@@ -73,6 +73,8 @@ King-Hele, D. G., & Leppard, N. A. G. (1980). The Gravity Field of the Earth [a
 
 Lambert, W. D. (1926). The Figure of the Earth and the New International Ellipsoid of Reference. *Science 63* (1627): 242–48. http://www.jstor.org/stable/1650705.
 
+Newton, I. (1687). *Philosophiae Naturalis Principia Mathematica*. Londini: Smith. https://doi.org/10.3931/e-rara-100311.
+
 Officer, C. B. (1974). Gravity. In *Introduction to Theoretical Geophysics*, 260–302. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-65731-3_8.
 
 Šarboh, S. (2010). The Patents of Nikola Tesla. *World Patent Information 32* (4): 335–39. https://doi.org/10.1016/j.wpi.2009.11.001.
