@@ -26,7 +26,15 @@ Figure 2.
 
 The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha°$ on the $x$, $y$ and $z$ axes; it is defined as a *dipole* inclined at approximately $\alpha=9.6°$ relative to the axis of rotation.
 
-The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and force from rotation (see e.g. Caputo, 1967; Officer, 1974; King-Hele et al., 1980). SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
+The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and force from rotation:
+
+"Def. V. Vis centripeta est qua corpus versus punctum aliquod tanquam ad centrum trahitur, impellitur, vel ut cunq[ue] tendit. Hujus generis est gravitas, qua corpus tendit ad centrum Terræ [...]", (Newton, 1687, p. 3).
+
+The centripetal is a force by which a body is drawn, pushed or otherwise tends towards some point at a center. Gravity is of this kind, by which the body tends to the center of the Earth.
+
+See also e.g. Caputo (1967), Officer (1974) or King-Hele et al. (1980). 
+
+SI unit is meters per second squared $\frac{m}{s^2}$, newtons per kilogram $\frac{N}{kg}$, respectively. Near the surface, the acceleration of *one* $g_n$ is approximately
 $$g_n=9.8 \frac{m}{s^2}.$$ 
 
 Given Earth's rotation and spherical asymmetry, but also tidal forces, variations in local topography, density distributions within the Earth, etc., there are deviations or *gravity anomalies* as the difference between the observed acceleration and the predicted model value $g_n$ of the *International Reference Ellipsoid*, c.f. Lambert (1926), Kaula (1970), Bowin (1991), Hinze et al. (2013), Götze (2020) or Hu et al. (2023).
