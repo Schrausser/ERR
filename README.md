@@ -28,9 +28,9 @@ The *orientation* to the *geomagnetic field* is given in angular degrees $\alpha
 
 The Earth's *gravity* $g$ is a combined *acceleration* effect of gravitation from mass and force from rotation:
 
-"Def. V. Vis centripeta est qua corpus versus punctum aliquod tanquam ad centrum trahitur, impellitur, vel ut cunq[ue] tendit. Hujus generis est gravitas, qua corpus tendit ad centrum Terræ [...]", (Newton, 1687, p. 3).
+>"Def. V. Vis centripeta est qua corpus versus punctum aliquod tanquam ad centrum trahitur, impellitur, vel ut cunq[ue] tendit. Hujus generis est gravitas, qua corpus tendit ad centrum Terræ [...]", (Newton, 1687, p. 3).
 
-The centripetal is a force by which a body is drawn, pushed or otherwise tends towards some point at a center. Gravity is of this kind, by which the body tends to the center of the Earth.
+>The centripetal is a force by which a body is drawn, pushed or otherwise tends towards some point at a center. Gravity is of this kind, by which the body tends to the center of the Earth.
 
 See also e.g. Caputo (1967), Officer (1974) or King-Hele et al. (1980). 
 
