@@ -45,7 +45,7 @@ Figure 3.
 
 ![figure.\label{pic1}](pic1.jpg)
 
-The current *global position* $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of *latitude* $\phi$ and *longitude* $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees *°N-°S* or *°W-°E*, respectively. See e.g. Anderle et al. (1980), Daniel & Daniel (2012), Acharya (2014) or Chang (2016).
+The current *global position* $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of *latitude* $\phi$ and *longitude* $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees $°N-°S$ or $°W-°E$, respectively. See e.g. Anderle et al. (1980), Daniel & Daniel (2012), Acharya (2014) or Chang (2016).
 
 ### References
 
