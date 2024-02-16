@@ -4,7 +4,7 @@
         © 2023-2024 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.5.8"
+_ver$="v3.5.9"
 INCLUDE strg_.inc
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "err.ini"
@@ -372,14 +372,7 @@ IF s03=1&s02=1
  IF dy>dmxg THEN dmxg=dy
  IF dz>dmxg THEN dmxg=dz
 ENDIF
-!!
-IF s03=1&s09=1
- dmx=ggg % Threshold angle ° /////////
- IF dx>dmx|dy>dmx|dz>dmx
-  VIBRATE x[],-1
- ENDIF
-ENDIF
-!!
+!
 cp$=  FORMAT$("###.#",cp)+"°"
 cpi$= FORMAT$("###.#",-cpi)+"°"+ CHR$(8597)
 crl$= FORMAT$("###.#", crl)+"°"+ CHR$(8596)
@@ -661,12 +654,6 @@ IF sel5=5:swc=4:fp$="White":ENDIF
 RETURN
 !
 dialoggr:
-gr01$="Difference Threshold="+FORMAT$("#.#",ggg)+"°"
-ARRAY.LOAD sel6$[],gr01$
-DIALOG.SELECT sel6, sel6$[],"Gravitation Options:"
-IF sel6=1
- INPUT "Difference Angle=…°",ggg,2
-ENDIF
 RETURN
 !
 dialogm:
@@ -691,12 +678,6 @@ ENDIF
 RETURN
 !
 dialogla:
-la01$="Difference Threshold=" +FORMAT$("###.#",gwl)+"°"
-ARRAY.LOAD sel8$[],la01$
-DIALOG.SELECT sel8, sel8$[],"Linear Acceleration Options:"
-IF sel8=1
- INPUT "Difference Angle=…°",gwl,1
-ENDIF
 RETURN
 !
 lbrte:
