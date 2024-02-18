@@ -606,7 +606,7 @@ IF s08=-1: o08$="     Linear Acceleration off":  ENDIF
 IF s09=1:o09$=smb$+"  Signal":ENDIF
 IF s09=-1: o09$="     Signal off":  ENDIF
 IF s10=1:o10$=smb$+"  SCRS":ENDIF
-IF s10=-1: o10$="     SCRS aus":  ENDIF
+IF s10=-1: o10$="     SCRS off":  ENDIF
 RETURN
 !
 dialogk:
