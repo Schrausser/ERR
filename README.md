@@ -1,7 +1,7 @@
 # ERR
 Earthrotation `ERR`. Android application for displaying Earth's and local *magnetic field* (Assis et al., 2004), *gravity* (King-Hele et al., 1980), *acceleration*, *GPS* (Anderle et al., 1980) and more. As an additional tool to the `SSR` Solar System Simulator (Schrausser, 2023) for orientation with a particular focus on position and time determination on Earth.
 
-Figure 1.
+**Figure 1.**
 
 ![figure.\label{pic0}](pic0.jpg)
 
@@ -20,7 +20,7 @@ $$G= μT⋅100.$$
 
 $B_E$ normaly ranges from about $B_E\ge0.25G$ to $B_E\le0.65G$.  
 
-Figure 2.
+**Figure 2.**
 
 ![figure.\label{pic2}](pic2.jpg)
 
@@ -41,7 +41,7 @@ Given Earth's rotation and spherical asymmetry, but also tidal forces, variation
 
 The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ and deviations from local accelerations $d$, are also specified in angular degrees $\alpha°$.
 
-Figure 3.
+**Figure 3.**
 
 ![figure.\label{pic1}](pic1.jpg)
 
