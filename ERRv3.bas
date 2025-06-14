@@ -724,6 +724,7 @@ CONSOLE.TITLE _name$
 PRINT _name$+" Earthrotation "+_ver$         
 PRINT "Copyright "+_cr$+" 2024 by Dietmar Gerald Schrausser"
 PRINT "https://github.com/Schrausser/ERR"
+PRINT "DOI:10.5281/zenodo.11408733"
 END
 RETURN
 ! // END //
