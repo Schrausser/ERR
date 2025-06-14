@@ -4,7 +4,7 @@
         © 2023-2024 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.5.9"
+_ver$="v3.6.5"
 INCLUDE strg_.inc
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "err.ini"
