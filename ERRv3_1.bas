@@ -4,7 +4,7 @@
         © 2023-2025 by Dietmar Schrausser
 !!
 _name$="ERR"
-_ver$="v3.5.9.1" % Standard devices
+_ver$="v3.6.5.1" % Standard devices
 INCLUDE strg_.inc
 ! % default //////////////////////////////////
 FILE.EXISTS fx, "err.ini"
@@ -709,6 +709,7 @@ CONSOLE.TITLE _name$
 PRINT _name$+" Earthrotation "+_ver$         
 PRINT "Copyright "+_cr$+" 2024 by Dietmar Gerald Schrausser"
 PRINT "https://github.com/Schrausser/ERR"
+PRINT "DOI:10.5281/zenodo.11408733"
 END
 RETURN
 ! // END //
