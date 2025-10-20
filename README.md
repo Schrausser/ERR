@@ -47,7 +47,7 @@ The *orientation* to the *gravitational field* $g$, as well as fluctuations $z$ 
 
 ![figure.\label{pic1}](pic1.jpg)
 
-The current *global position* $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of *latitude* $\phi$ and *longitude* $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees $°N-°S$ or $°W-°E$, respectively. See e.g. Anderle et al. ([1980](http://www.jstor.org/stable/36536)), Daniel & Daniel ([2012](https://doi.org/10.1016/B978-1-59749-643-8.00042-0)), Acharya ([2014](https://doi.org/10.1016/C2013-0-06964-2)) or Chang ([2016](https://books.google.com/books?id=DokZogEACAAJ)).
+The current *global position* $P_x$ is displayed using the *geographic coordinate system* GCS, a spherical coordinate system for measuring positions on Earth in terms of *latitude* $\phi$ and *longitude* $\lambda$, where $\phi$ is the angle between the *equatorial plane* and $P_x$ and $\lambda$ is the angle between a *reference meridian* and $P_x$, given in angular degrees $°N-°S$ or $°W-°E$, respectively. See e.g. Anderle et al. ([1980](http://www.jstor.org/stable/36536)), Daniel and Daniel ([2012](https://doi.org/10.1016/B978-1-59749-643-8.00042-0)), Acharya ([2014](https://doi.org/10.1016/C2013-0-06964-2)) or Chang ([2016](https://books.google.com/books?id=DokZogEACAAJ)).
 
 ![figure.\label{anim}](anim01.gif)
 
